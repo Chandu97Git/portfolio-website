@@ -9,19 +9,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">CU</a>
+            <a class="navbar-brand" href="#">
+                <span class="brand-brackets">&lt;</span>
+                <span class="brand-name">Chandu</span>
+                <span class="brand-brackets">/&gt;</span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -29,41 +39,201 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="hero-particles"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="hero-content">
+                        <div class="hero-label">
+                            <span class="status-dot"></span>
+                            Available for Opportunities
+                        </div>
+                        <h1 class="hero-title">
+                            Hi, I'm <span class="gradient-text">Chandu Undurthi</span>
+                        </h1>
+                        <h2 class="hero-subtitle">
+                            <span class="typed-text"></span>
+                            <span class="cursor-blink">|</span>
+                        </h2>
+                        <p class="hero-description">
+                            Specialized in building scalable enterprise applications using .NET technologies, 
+                            with a passion for clean code and innovative solutions.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary-custom">
+                                <i class="fas fa-paper-plane"></i> Let's Connect
+                            </a>
+                            <a href="#projects" class="btn btn-outline-custom">
+                                <i class="fas fa-eye"></i> View Work
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-number"><span class="counter" data-target="3">0</span>+</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number"><span class="counter" data-target="20">0</span>+</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number"><span class="counter" data-target="8">0</span>+</div>
+                                <div class="stat-label">Technologies</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="hero-image-wrapper">
+                        <div class="code-window">
+                            <div class="window-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="window-body">
+                                <pre><code><span class="code-keyword">public class</span> <span class="code-class">Developer</span>
+{
+    <span class="code-keyword">public string</span> Name => <span class="code-string">"Chandu"</span>;
+    <span class="code-keyword">public string[]</span> Skills => <span class="code-keyword">new</span>[]
+    {
+        <span class="code-string">"ASP.NET Core"</span>,
+        <span class="code-string">"C#"</span>,
+        <span class="code-string">"Angular"</span>,
+        <span class="code-string">"SQL"</span>
+    };
+    <span class="code-keyword">public bool</span> IsHireable => <span class="code-keyword">true</span>;
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 hero-content">
-                    <h1>Chandu Undurthi</h1>
-                    <h2>.NET Full Stack Developer</h2>
-                    <p>Crafting robust and scalable web applications with modern technologies</p>
-                    <a href="#contact" class="btn btn-custom">Get In Touch</a>
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">
+                        <span class="title-number">01.</span> About Me
+                    </h2>
+                    <div class="section-subtitle">Get to know me better</div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-card">
+                            <div class="profile-placeholder">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                        </div>
+                        <div class="experience-badge">
+                            <div class="badge-number">3+</div>
+                            <div class="badge-text">Years of<br>Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p class="about-text">
+                            I'm a passionate <strong>.NET Full Stack Developer</strong> with expertise in building 
+                            enterprise-level web applications. My journey in software development has been driven by 
+                            curiosity and a constant desire to learn and implement cutting-edge technologies.
+                        </p>
+                        <p class="about-text">
+                            I specialize in creating <strong>robust, scalable, and maintainable</strong> applications 
+                            using ASP.NET Core, C#, and modern frontend frameworks like Angular. My focus is always on 
+                            delivering high-quality solutions that meet business objectives while providing exceptional 
+                            user experiences.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Full Stack Development</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>RESTful API Design</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Database Architecture</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Agile Methodology</span>
+                            </div>
+                        </div>
+                        <div class="about-cta">
+                            <a href="#contact" class="btn btn-primary-custom">
+                                <i class="fas fa-download"></i> Download Resume
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="section-title">About Me</h2>
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title text-white">
+                        <span class="title-number">02.</span> Experience & Expertise
+                    </h2>
+                    <div class="section-subtitle text-white-50">What I bring to the table</div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <p class="about-text text-center">
-                        I'm a passionate .NET Full Stack Developer with expertise in building enterprise-level web applications. 
-                        With a strong foundation in both frontend and backend technologies, I create seamless, efficient, and 
-                        user-friendly solutions. My focus is on writing clean, maintainable code and staying updated with the 
-                        latest industry trends and best practices.
-                    </p>
-                    <div class="social-links justify-content-center">
-                        <a href="https://linkedin.com/in/chandu-undurthi" target="_blank" class="social-link">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://github.com/Chandu97Git" target="_blank" class="social-link">
-                            <i class="fab fa-github"></i>
-                        </a>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend Development</h3>
+                        <p>Expert in ASP.NET Core, Web API, and MVC architecture. Building secure, scalable server-side applications with clean architecture principles.</p>
+                        <div class="expertise-tech">
+                            <span class="tech-badge">ASP.NET Core</span>
+                            <span class="tech-badge">C#</span>
+                            <span class="tech-badge">Web API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                        <p>Creating responsive, interactive user interfaces using Angular, HTML5, CSS3, and JavaScript. Focus on performance and user experience.</p>
+                        <div class="expertise-tech">
+                            <span class="tech-badge">Angular</span>
+                            <span class="tech-badge">TypeScript</span>
+                            <span class="tech-badge">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Database Management</h3>
+                        <p>Designing and optimizing relational databases, writing complex queries, stored procedures, and ensuring data integrity.</p>
+                        <div class="expertise-tech">
+                            <span class="tech-badge">SQL Server</span>
+                            <span class="tech-badge">T-SQL</span>
+                            <span class="tech-badge">EF Core</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,60 +241,177 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="section-title">Technical Skills</h2>
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">
+                        <span class="title-number">03.</span> Technical Skills
+                    </h2>
+                    <div class="section-subtitle">Technologies I work with</div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-lg-3">
-                    <div class="skill-card text-center">
-                        <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
-                        <div class="skill-name">ASP.NET</div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="skill-card-new">
+                        <div class="skill-icon-wrapper">
+                            <i class="fab fa-microsoft"></i>
+                        </div>
+                        <h4>ASP.NET</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar-custom" data-progress="90"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="skill-card text-center">
-                        <div class="skill-icon"><i class="fas fa-server"></i></div>
-                        <div class="skill-name">ASP.NET Core</div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="skill-card-new">
+                        <div class="skill-icon-wrapper">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h4>ASP.NET Core</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar-custom" data-progress="95"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="skill-card text-center">
-                        <div class="skill-icon"><i class="fas fa-code"></i></div>
-                        <div class="skill-name">C#</div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="skill-card-new">
+                        <div class="skill-icon-wrapper">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>C#</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar-custom" data-progress="92"></div>
+                        </div>
+                        <span class="skill-percentage">92%</span>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="skill-card text-center">
-                        <div class="skill-icon"><i class="fas fa-database"></i></div>
-                        <div class="skill-name">SQL</div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="skill-card-new">
+                        <div class="skill-icon-wrapper">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>SQL Server</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar-custom" data-progress="88"></div>
+                        </div>
+                        <span class="skill-percentage">88%</span>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="skill-card text-center">
-                        <div class="skill-icon"><i class="fab fa-angular"></i></div>
-                        <div class="skill-name">Angular</div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="skill-card-new">
+                        <div class="skill-icon-wrapper">
+                            <i class="fab fa-angular"></i>
+                        </div>
+                        <h4>Angular</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar-custom" data-progress="85"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="skill-card text-center">
-                        <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
-                        <div class="skill-name">ASP.NET MVC</div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="skill-card-new">
+                        <div class="skill-icon-wrapper">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <h4>Web API</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar-custom" data-progress="93"></div>
+                        </div>
+                        <span class="skill-percentage">93%</span>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="skill-card text-center">
-                        <div class="skill-icon"><i class="fas fa-plug"></i></div>
-                        <div class="skill-name">Web API</div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="skill-card-new">
+                        <div class="skill-icon-wrapper">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h4>ASP.NET MVC</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar-custom" data-progress="90"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3">
-                    <div class="skill-card text-center">
-                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
-                        <div class="skill-name">HTML/CSS/JS</div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="skill-card-new">
+                        <div class="skill-icon-wrapper">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h4>HTML/CSS/JS</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar-custom" data-progress="87"></div>
+                        </div>
+                        <span class="skill-percentage">87%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">
+                        <span class="title-number">04.</span> Featured Projects
+                    </h2>
+                    <div class="section-subtitle">Some things I've built</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>E-Commerce Platform</h3>
+                                <span class="project-type">Featured Project</span>
+                            </div>
+                            <p>Full-stack e-commerce solution with ASP.NET Core backend, Angular frontend, and SQL Server database. Includes payment integration, inventory management, and admin dashboard.</p>
+                            <div class="project-tech">
+                                <span>ASP.NET Core</span>
+                                <span>Angular</span>
+                                <span>SQL Server</span>
+                                <span>Web API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Project Management System</h3>
+                                <span class="project-type">Featured Project</span>
+                            </div>
+                            <p>Enterprise-level project tracking and collaboration tool with real-time updates, task management, and reporting features using SignalR and ASP.NET MVC.</p>
+                            <div class="project-tech">
+                                <span>ASP.NET MVC</span>
+                                <span>SignalR</span>
+                                <span>C#</span>
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,33 +419,44 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="section-title text-white">Get In Touch</h2>
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">
+                        <span class="title-number">05.</span> Get In Touch
+                    </h2>
+                    <div class="section-subtitle">Let's build something amazing together</div>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
-                            <div>
-                                <a href="https://linkedin.com/in/chandu-undurthi" target="_blank" 
-                                   style="color: white; text-decoration: none;">
-                                   linkedin.com/in/chandu-undurthi
-                                </a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon"><i class="fab fa-github"></i></div>
-                            <div>
-                                <a href="https://github.com/Chandu97Git" target="_blank" 
-                                   style="color: white; text-decoration: none;">
-                                   github.com/Chandu97Git
-                                </a>
-                            </div>
+                <div class="col-lg-8">
+                    <div class="contact-wrapper">
+                        <p class="contact-intro">
+                            I'm currently open to new opportunities and exciting projects. Whether you have a question, 
+                            want to discuss a project, or just want to say hi, feel free to reach out!
+                        </p>
+                        <div class="contact-methods">
+                            <a href="https://linkedin.com/in/chandu-undurthi" target="_blank" class="contact-method-card">
+                                <div class="method-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>LinkedIn</h4>
+                                    <p>Connect with me professionally</p>
+                                    <span class="method-link">linkedin.com/in/chandu-undurthi <i class="fas fa-arrow-right"></i></span>
+                                </div>
+                            </a>
+                            <a href="https://github.com/Chandu97Git" target="_blank" class="contact-method-card">
+                                <div class="method-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>GitHub</h4>
+                                    <p>Check out my code repositories</p>
+                                    <span class="method-link">github.com/Chandu97Git <i class="fas fa-arrow-right"></i></span>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -167,11 +465,32 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Chandu Undurthi. All Rights Reserved.</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>&lt;Chandu/&gt;</h3>
+                    <p>Building the future, one line of code at a time.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/chandu-undurthi" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Chandu97Git" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chandu Undurthi. Designed & Built with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
+            </div>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
