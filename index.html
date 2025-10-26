@@ -3,195 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chandu Undurthi - .NET Full Stack Developer</title>
+    <title>Chandu Undurthi - .NET Full Stack Developer | 3+ Years Experience</title>
+    <meta name="description" content=".NET Full Stack Developer with expertise in ASP.NET Core, Angular, and MS SQL Server">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Cursor Effect -->
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+        <div class="bg-shape shape-3"></div>
+    </div>
+
+    <!-- Custom Cursor -->
     <div class="cursor"></div>
     <div class="cursor-follower"></div>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <span class="brand-brackets">&lt;</span>
-                <span class="brand-name">Chandu</span>
-                <span class="brand-brackets">/&gt;</span>
+            <a class="navbar-brand" href="#home">
+                <span class="brand-icon">&lt;</span>
+                <span class="brand-text">Chandu Undurthi</span>
+                <span class="brand-icon">/&gt;</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-code"></i> Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a href="mailto:undurthichanduindia@gmail.com" class="btn btn-nav-cta ms-lg-3">Hire Me</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-particles"></div>
+    <section id="home" class="hero-section">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <div class="hero-content">
-                        <div class="hero-label">
-                            <span class="status-dot"></span>
-                            Available for Opportunities
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content" data-aos="fade-up">
+                        <div class="hero-badge">
+                            <span class="badge-dot"></span>
+                            <span class="badge-text">Available for Opportunities</span>
                         </div>
                         <h1 class="hero-title">
-                            Hi, I'm <span class="gradient-text">Chandu Undurthi</span>
+                            Hello, I'm <br>
+                            <span class="gradient-text">Chandu Undurthi</span>
                         </h1>
-                        <h2 class="hero-subtitle">
-                            <span class="typed-text"></span>
-                            <span class="cursor-blink">|</span>
-                        </h2>
+                        <div class="hero-subtitle-wrapper">
+                            <h2 class="hero-subtitle">
+                                <span class="typing-text"></span>
+                                <span class="typing-cursor">|</span>
+                            </h2>
+                        </div>
                         <p class="hero-description">
-                            3+ years of experience in designing, developing, and maintaining scalable web applications 
-                            using ASP.NET, Angular, and MS SQL Server. Specialized in building secure, high-performance 
-                            solutions for education and enterprise domains.
+                            <strong>3+ years</strong> of hands-on experience in designing, developing, and maintaining 
+                            <strong>scalable enterprise web applications</strong> using ASP.NET Core, Angular, and MS SQL Server. 
+                            Specialized in <strong>education and enterprise domains</strong> with a proven track record of 
+                            delivering high-quality, user-friendly solutions.
                         </p>
-                        <div class="hero-buttons">
-                            <a href="#contact" class="btn btn-primary-custom">
-                                <i class="fas fa-paper-plane"></i> Let's Connect
+                        <div class="hero-cta-group">
+                            <a href="#contact" class="btn btn-primary-hero">
+                                <span>Let's Talk</span>
+                                <i class="fas fa-arrow-right"></i>
                             </a>
-                            <a href="#projects" class="btn btn-outline-custom">
-                                <i class="fas fa-eye"></i> View Work
+                            <a href="#projects" class="btn btn-secondary-hero">
+                                <span>View Projects</span>
+                                <i class="fas fa-briefcase"></i>
                             </a>
                         </div>
-                        <div class="hero-stats">
-                            <div class="stat-item">
+                        <div class="hero-stats-grid">
+                            <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
                                 <div class="stat-number"><span class="counter" data-target="3">0</span>+</div>
                                 <div class="stat-label">Years Experience</div>
                             </div>
-                            <div class="stat-item">
+                            <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
                                 <div class="stat-number"><span class="counter" data-target="5">0</span>+</div>
                                 <div class="stat-label">Major Projects</div>
                             </div>
-                            <div class="stat-item">
+                            <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
                                 <div class="stat-number"><span class="counter" data-target="10">0</span>+</div>
                                 <div class="stat-label">Technologies</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="hero-image-wrapper">
-                        <div class="code-window">
-                            <div class="window-header">
-                                <span class="dot red"></span>
-                                <span class="dot yellow"></span>
-                                <span class="dot green"></span>
+                <div class="col-lg-6">
+                    <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+                        <div class="code-card">
+                            <div class="code-header">
+                                <div class="code-dots">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <div class="code-title">Developer.cs</div>
                             </div>
-                            <div class="window-body">
-                                <pre><code><span class="code-keyword">public class</span> <span class="code-class">Developer</span>
+                            <div class="code-body">
+<pre><code><span class="code-keyword">public class</span> <span class="code-class">FullStackDeveloper</span>
 {
-    <span class="code-keyword">public string</span> Name => <span class="code-string">"Chandu Undurthi"</span>;
-    <span class="code-keyword">public string</span> Location => <span class="code-string">"Vijayawada, AP"</span>;
-    <span class="code-keyword">public string[]</span> Skills => <span class="code-keyword">new</span>[]
-    {
-        <span class="code-string">"ASP.NET Core"</span>,
-        <span class="code-string">"Angular"</span>,
-        <span class="code-string">"MS SQL Server"</span>,
-        <span class="code-string">"Web API"</span>
+    <span class="code-comment">// Personal Info</span>
+    <span class="code-keyword">public string</span> Name = <span class="code-string">"Chandu Undurthi"</span>;
+    <span class="code-keyword">public string</span> Location = <span class="code-string">"Vijayawada, AP"</span>;
+    <span class="code-keyword">public string</span> Email = <span class="code-string">"undurthichanduindia@gmail.com"</span>;
+    
+    <span class="code-comment">// Technical Stack</span>
+    <span class="code-keyword">public string[]</span> BackendSkills = {
+        <span class="code-string">"ASP.NET Core"</span>, <span class="code-string">"C#"</span>, <span class="code-string">"Web API"</span>
     };
-    <span class="code-keyword">public bool</span> IsHireable => <span class="code-keyword">true</span>;
+    <span class="code-keyword">public string[]</span> FrontendSkills = {
+        <span class="code-string">"Angular"</span>, <span class="code-string">"TypeScript"</span>, <span class="code-string">"JavaScript"</span>
+    };
+    <span class="code-keyword">public string</span> Database = <span class="code-string">"MS SQL Server"</span>;
+    
+    <span class="code-comment">// Status</span>
+    <span class="code-keyword">public bool</span> IsAvailableForHire() => <span class="code-keyword">true</span>;
 }</code></pre>
                             </div>
+                        </div>
+                        <div class="floating-tech-icons">
+                            <div class="tech-icon icon-1"><i class="fab fa-microsoft"></i></div>
+                            <div class="tech-icon icon-2"><i class="fab fa-angular"></i></div>
+                            <div class="tech-icon icon-3"><i class="fas fa-database"></i></div>
+                            <div class="tech-icon icon-4"><i class="fas fa-server"></i></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="scroll-indicator">
-            <div class="mouse"></div>
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="section-padding">
+    <section id="about" class="about-section section-padding">
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mb-5">
-                    <h2 class="section-title">
-                        <span class="title-number">01.</span> About Me
-                    </h2>
-                    <div class="section-subtitle">Get to know me better</div>
-                </div>
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate developer committed to excellence</p>
             </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5" data-aos="fade-right">
                     <div class="about-image-wrapper">
-                        <div class="about-image-card">
-                            <div class="profile-placeholder">
+                        <div class="about-main-card">
+                            <div class="profile-avatar">
                                 <i class="fas fa-user-tie"></i>
                             </div>
+                            <div class="about-info-overlay">
+                                <div class="info-item">
+                                    <i class="fas fa-briefcase"></i>
+                                    <span>Associate Software Engineer</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-building"></i>
+                                    <span>APTONLINE</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Vijayawada, AP</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="experience-badge">
-                            <div class="badge-number">3+</div>
-                            <div class="badge-text">Years of<br>Experience</div>
+                        <div class="experience-badge-float">
+                            <div class="badge-content">
+                                <div class="badge-number">3+</div>
+                                <div class="badge-text">Years<br>Experience</div>
+                            </div>
+                        </div>
+                        <div class="education-badge-float">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="badge-text">M.Tech<br>JNTU</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7" data-aos="fade-left">
                     <div class="about-content">
+                        <h3 class="about-heading">Full Stack Developer at <span class="text-gradient">APTONLINE</span></h3>
                         <p class="about-text">
-                            I'm a passionate <strong>.NET Full Stack Developer</strong> with 3+ years of experience in 
-                            designing, developing, and maintaining scalable web applications. Currently working as an 
-                            <strong>Associate Software Engineer</strong> at APTONLINE, where I've delivered high-quality 
-                            solutions across education and enterprise domains.
+                            I'm a passionate <strong>.NET Full Stack Developer</strong> with <strong>3+ years</strong> of 
+                            professional experience, currently serving as an <strong>Associate Software Engineer at APTONLINE</strong> 
+                            in Vijayawada, Andhra Pradesh since August 2022.
                         </p>
                         <p class="about-text">
-                            I specialize in creating <strong>robust, scalable, and maintainable</strong> applications 
-                            using ASP.NET Core, C#, and modern frontend frameworks like Angular. My focus is on 
-                            optimizing performance, improving user experience, and building secure, reliable systems 
-                            that make a real impact.
+                            My expertise lies in building <strong>enterprise-level web applications</strong> that serve 
+                            thousands of users across <strong>education and government domains</strong>. I specialize in 
+                            creating robust, scalable solutions using ASP.NET Core, Angular, and MS SQL Server.
                         </p>
-                        <p class="about-text">
-                            <strong>Education:</strong> M.Tech in Advanced Manufacturing Systems from JNTU Anantapur, 
-                            combining technical expertise with engineering principles.
-                        </p>
-                        <div class="about-highlights">
-                            <div class="highlight-item">
+                        <div class="about-highlights-grid">
+                            <div class="highlight-box">
                                 <i class="fas fa-check-circle"></i>
-                                <span>Full Stack Development</span>
+                                <div>
+                                    <strong>State-Level Projects</strong>
+                                    <span>Education portals serving AP</span>
+                                </div>
                             </div>
-                            <div class="highlight-item">
+                            <div class="highlight-box">
                                 <i class="fas fa-check-circle"></i>
-                                <span>RESTful API Design</span>
+                                <div>
+                                    <strong>Clean Architecture</strong>
+                                    <span>Following best practices</span>
+                                </div>
                             </div>
-                            <div class="highlight-item">
+                            <div class="highlight-box">
                                 <i class="fas fa-check-circle"></i>
-                                <span>Database Architecture</span>
+                                <div>
+                                    <strong>Agile Development</strong>
+                                    <span>Fast-paced delivery</span>
+                                </div>
                             </div>
-                            <div class="highlight-item">
+                            <div class="highlight-box">
                                 <i class="fas fa-check-circle"></i>
-                                <span>Agile Methodology</span>
-                            </div>
-                            <div class="highlight-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>Clean Code Standards</span>
-                            </div>
-                            <div class="highlight-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>Client Communication</span>
+                                <div>
+                                    <strong>M.Tech Graduate</strong>
+                                    <span>JNTU Anantapur</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="about-cta">
-                            <a href="mailto:undurthichanduindia@gmail.com" class="btn btn-primary-custom">
-                                <i class="fas fa-envelope"></i> Email Me
+                        <div class="about-action-buttons">
+                            <a href="mailto:undurthichanduindia@gmail.com" class="btn btn-about-primary">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email Me</span>
                             </a>
-                            <a href="tel:+919618303538" class="btn btn-outline-custom ms-3">
-                                <i class="fas fa-phone"></i> Call Me
+                            <a href="tel:+919618303538" class="btn btn-about-secondary">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9618303538</span>
                             </a>
                         </div>
                     </div>
@@ -201,91 +249,90 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="section-padding bg-dark">
+    <section id="experience" class="experience-section section-padding bg-dark-section">
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mb-5">
-                    <h2 class="section-title text-white">
-                        <span class="title-number">02.</span> Professional Experience
-                    </h2>
-                    <div class="section-subtitle text-white-50">My journey as a developer</div>
-                </div>
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-number light">02</span>
+                <h2 class="section-title text-white">Professional Journey</h2>
+                <p class="section-subtitle text-white-50">Building impactful solutions since 2022</p>
             </div>
             
-            <!-- Current Position -->
-            <div class="row mb-5">
-                <div class="col-12">
-                    <div class="experience-timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <div class="timeline-header">
-                                    <div>
-                                        <h3 class="text-white">Associate Software Engineer (Full Stack Developer)</h3>
-                                        <p class="company-name"><i class="fas fa-building"></i> APTONLINE</p>
-                                    </div>
-                                    <div class="timeline-date">
-                                        <i class="fas fa-calendar-alt"></i> Aug 2022 - Present
-                                    </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <!-- Current Role -->
+                    <div class="experience-card current" data-aos="fade-up">
+                        <div class="experience-header">
+                            <div class="company-logo">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div class="experience-details">
+                                <h3 class="role-title">Associate Software Engineer (Full Stack Developer)</h3>
+                                <div class="company-info">
+                                    <span class="company-name">
+                                        <i class="fas fa-building"></i>
+                                        APTONLINE
+                                    </span>
+                                    <span class="experience-duration">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        Aug 2022 - Present
+                                    </span>
+                                    <span class="experience-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Vijayawada, Andhra Pradesh
+                                    </span>
                                 </div>
-                                <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Vijayawada, Andhra Pradesh</p>
-                                <p class="timeline-description">
-                                    Developing and maintaining scalable web applications for state-level educational 
-                                    portals and enterprise systems, serving thousands of users across Andhra Pradesh.
+                                <p class="role-description">
+                                    Developing and maintaining large-scale web applications for state-level educational 
+                                    portals and enterprise systems, serving thousands of users across Andhra Pradesh with 
+                                    high reliability and performance.
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <!-- Expertise Cards -->
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="expertise-card">
-                        <div class="expertise-icon">
-                            <i class="fas fa-server"></i>
+                    <!-- Expertise Areas -->
+                    <div class="row g-4 mt-4">
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="expertise-box">
+                                <div class="expertise-icon-wrapper">
+                                    <i class="fas fa-server"></i>
+                                </div>
+                                <h4>Backend Development</h4>
+                                <p>Expert in ASP.NET Core, Web API, MVC architecture, and Entity Framework Core for building scalable server-side applications.</p>
+                                <div class="expertise-tags">
+                                    <span>ASP.NET Core</span>
+                                    <span>C#</span>
+                                    <span>Web API</span>
+                                </div>
+                            </div>
                         </div>
-                        <h3>Backend Development</h3>
-                        <p>Expert in ASP.NET Core, Web API, and MVC architecture. Building secure, scalable server-side 
-                        applications with clean architecture principles and Entity Framework Core.</p>
-                        <div class="expertise-tech">
-                            <span class="tech-badge">ASP.NET Core</span>
-                            <span class="tech-badge">C#</span>
-                            <span class="tech-badge">Web API</span>
-                            <span class="tech-badge">EF Core</span>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="expertise-box">
+                                <div class="expertise-icon-wrapper">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h4>Frontend Development</h4>
+                                <p>Creating responsive, interactive interfaces using Angular with TypeScript, implementing modern UI/UX patterns.</p>
+                                <div class="expertise-tags">
+                                    <span>Angular</span>
+                                    <span>TypeScript</span>
+                                    <span>HTML/CSS</span>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="expertise-card">
-                        <div class="expertise-icon">
-                            <i class="fas fa-laptop-code"></i>
-                        </div>
-                        <h3>Frontend Development</h3>
-                        <p>Creating responsive, interactive user interfaces using Angular with TypeScript. Implementing 
-                        routing, reactive forms, and modular structures for scalable applications.</p>
-                        <div class="expertise-tech">
-                            <span class="tech-badge">Angular</span>
-                            <span class="tech-badge">TypeScript</span>
-                            <span class="tech-badge">HTML5/CSS3</span>
-                            <span class="tech-badge">jQuery</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="expertise-card">
-                        <div class="expertise-icon">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h3>Database Management</h3>
-                        <p>Designing and optimizing MS SQL Server databases, writing complex queries, stored procedures, 
-                        and ensuring data integrity with Entity Framework Core.</p>
-                        <div class="expertise-tech">
-                            <span class="tech-badge">MS SQL Server</span>
-                            <span class="tech-badge">T-SQL</span>
-                            <span class="tech-badge">EF Core</span>
-                            <span class="tech-badge">Performance Tuning</span>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="expertise-box">
+                                <div class="expertise-icon-wrapper">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <h4>Database Management</h4>
+                                <p>Designing and optimizing MS SQL Server databases with complex queries and ensuring data integrity.</p>
+                                <div class="expertise-tags">
+                                    <span>MS SQL</span>
+                                    <span>T-SQL</span>
+                                    <span>EF Core</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -294,193 +341,129 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="section-padding">
+    <section id="skills" class="skills-section section-padding">
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mb-5">
-                    <h2 class="section-title">
-                        <span class="title-number">03.</span> Technical Skills
-                    </h2>
-                    <div class="section-subtitle">Technologies I work with</div>
-                </div>
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Technical Arsenal</h2>
+                <p class="section-subtitle">Comprehensive skill set for full-stack development</p>
             </div>
-            
-            <!-- Frameworks & Languages -->
-            <div class="row mb-4">
-                <div class="col-12">
-                    <h4 class="skill-category"><i class="fas fa-layer-group"></i> Frameworks & Languages</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fab fa-microsoft"></i>
+
+            <!-- Primary Skills -->
+            <div class="skills-category" data-aos="fade-up">
+                <h3 class="category-title">
+                    <i class="fas fa-layer-group"></i>
+                    Core Technologies
+                </h3>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
+                            <h5>ASP.NET</h5>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-skill="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
                         </div>
-                        <h4>ASP.NET</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="90"></div>
-                        </div>
-                        <span class="skill-percentage">90%</span>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fas fa-server"></i>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-server"></i></div>
+                            <h5>ASP.NET Core</h5>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-skill="95"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
                         </div>
-                        <h4>ASP.NET Core</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="95"></div>
-                        </div>
-                        <span class="skill-percentage">95%</span>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fas fa-project-diagram"></i>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                            <h5>ASP.NET MVC</h5>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-skill="92"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
                         </div>
-                        <h4>ASP.NET MVC</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="92"></div>
-                        </div>
-                        <span class="skill-percentage">92%</span>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fas fa-code"></i>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-plug"></i></div>
+                            <h5>Web API</h5>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-skill="94"></div>
+                            </div>
+                            <span class="skill-percent">94%</span>
                         </div>
-                        <h4>C#</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="93"></div>
-                        </div>
-                        <span class="skill-percentage">93%</span>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fab fa-angular"></i>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <h5>C#</h5>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-skill="93"></div>
+                            </div>
+                            <span class="skill-percent">93%</span>
                         </div>
-                        <h4>Angular</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="88"></div>
-                        </div>
-                        <span class="skill-percentage">88%</span>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fas fa-plug"></i>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-angular"></i></div>
+                            <h5>Angular</h5>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-skill="88"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
                         </div>
-                        <h4>Web API</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="94"></div>
-                        </div>
-                        <span class="skill-percentage">94%</span>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fab fa-html5"></i>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h5>MS SQL Server</h5>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-skill="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
                         </div>
-                        <h4>HTML5/CSS3</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="87"></div>
-                        </div>
-                        <span class="skill-percentage">87%</span>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fab fa-js"></i>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <h5>JavaScript</h5>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-skill="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
                         </div>
-                        <h4>JavaScript</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="85"></div>
-                        </div>
-                        <span class="skill-percentage">85%</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Database & Tools -->
-            <div class="row mb-4 mt-5">
-                <div class="col-12">
-                    <h4 class="skill-category"><i class="fas fa-tools"></i> Database & Development Tools</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h4>MS SQL Server</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="90"></div>
-                        </div>
-                        <span class="skill-percentage">90%</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                        <h4>Entity Framework</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="91"></div>
-                        </div>
-                        <span class="skill-percentage">91%</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fab fa-git-alt"></i>
-                        </div>
-                        <h4>Git</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="86"></div>
-                        </div>
-                        <span class="skill-percentage">86%</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="skill-card-new">
-                        <div class="skill-icon-wrapper">
-                            <i class="fas fa-paper-plane"></i>
-                        </div>
-                        <h4>Postman</h4>
-                        <div class="skill-progress">
-                            <div class="progress-bar-custom" data-progress="88"></div>
-                        </div>
-                        <span class="skill-percentage">88%</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Key Competencies -->
+            <!-- Tools & Practices -->
             <div class="row mt-5">
-                <div class="col-12">
-                    <div class="competencies-wrapper">
-                        <h4 class="skill-category text-center mb-4"><i class="fas fa-brain"></i> Key Competencies</h4>
-                        <div class="competencies-grid">
-                            <div class="competency-badge">RESTful APIs</div>
-                            <div class="competency-badge">Clean Code Standards</div>
-                            <div class="competency-badge">Requirement Analysis</div>
-                            <div class="competency-badge">Problem Solving</div>
-                            <div class="competency-badge">Debugging</div>
-                            <div class="competency-badge">Agile Development</div>
-                            <div class="competency-badge">Client Communication</div>
-                            <div class="competency-badge">Performance Optimization</div>
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="tools-card">
+                        <h4><i class="fas fa-tools"></i> Development Tools</h4>
+                        <div class="tools-grid">
+                            <div class="tool-badge"><i class="fab fa-git-alt"></i> Git</div>
+                            <div class="tool-badge"><i class="fas fa-paper-plane"></i> Postman</div>
+                            <div class="tool-badge"><i class="fas fa-code"></i> Visual Studio</div>
+                            <div class="tool-badge"><i class="fas fa-terminal"></i> VS Code</div>
+                            <div class="tool-badge"><i class="fas fa-cogs"></i> Entity Framework</div>
+                            <div class="tool-badge"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="tools-card">
+                        <h4><i class="fas fa-lightbulb"></i> Professional Skills</h4>
+                        <div class="tools-grid">
+                            <div class="tool-badge professional">RESTful APIs</div>
+                            <div class="tool-badge professional">Clean Code</div>
+                            <div class="tool-badge professional">Problem Solving</div>
+                            <div class="tool-badge professional">Agile/Scrum</div>
+                            <div class="tool-badge professional">Client Communication</div>
+                            <div class="tool-badge professional">Code Review</div>
                         </div>
                     </div>
                 </div>
@@ -489,166 +472,326 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section-padding bg-light">
+    <section id="projects" class="projects-section section-padding bg-light-section">
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mb-5">
-                    <h2 class="section-title">
-                        <span class="title-number">04.</span> Featured Projects
-                    </h2>
-                    <div class="section-subtitle">Real-world applications I've built</div>
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Real-world applications making an impact</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card-new">
+                        <div class="project-badge">State-Level Portal</div>
+                        <div class="project-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="project-title">APSCHE-WBA Portal</h3>
+                        <p class="project-description">
+                            Comprehensive state-level admission portal for APSCHE, automating college admission processes 
+                            across Andhra Pradesh with enhanced transparency and efficiency.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                Automated allotment logic
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                Payment integration
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                Web options functionality
+                            </div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">ASP.NET</span>
+                            <span class="tech-tag">MVC</span>
+                            <span class="tech-tag">SQL Server</span>
+                            <span class="tech-tag">jQuery</span>
+                        </div>
+                        <div class="project-impact">
+                            <i class="fas fa-users"></i>
+                            <span>Serving thousands of students</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card-new">
+                        <div class="project-badge">Angular Frontend</div>
+                        <div class="project-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3 class="project-title">AP-PGECET Web Portal</h3>
+                        <p class="project-description">
+                            Modern Angular-based frontend for postgraduate engineering admissions with responsive design 
+                            and seamless API integration for enhanced user experience.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                Reusable Angular components
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                RESTful API integration
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                Reactive forms & routing
+                            </div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Web API</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-impact">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Fully responsive design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card-new">
+                        <div class="project-badge">Enterprise System</div>
+                        <div class="project-icon">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <h3 class="project-title">HRMS Platform</h3>
+                        <p class="project-description">
+                            Internal Human Resource Management System handling attendance, timesheets, and HIS data 
+                            with role-based access control and optimized performance.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                Role-based access control
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                Optimized SQL queries
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                EF Core implementation
+                            </div>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">ASP.NET Core</span>
+                            <span class="tech-tag">EF Core</span>
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <div class="project-impact">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>Enhanced performance</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <!-- Project 1: APSCHE-WBA -->
-                <div class="col-lg-6 mb-4">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-placeholder">
-                                <i class="fas fa-graduation-cap"></i>
-                            </div>
-                            <div class="project-overlay">
-                                <div class="project-overlay-content">
-                                    <h4>State-Level Admission System</h4>
-                                    <p>Serving thousands of students across Andhra Pradesh</p>
-                                </div>
-                            </div>
+
+            <!-- Learning & Growth -->
+            <div class="learning-section mt-5" data-aos="fade-up">
+                <h3 class="text-center mb-4">
+                    <i class="fas fa-rocket"></i>
+                    Continuous Learning & Innovation
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="learning-card">
+                            <i class="fas fa-brain"></i>
+                            <h5>Frontend Innovation</h5>
+                            <p>Angular optimization & state management</p>
                         </div>
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>APSCHE-WBA Portal</h3>
-                                <span class="project-type">Enterprise Project</span>
-                            </div>
-                            <p>Developed a comprehensive state-level admission portal automating college admission processes for APSCHE. Enhanced candidate registration, payment processing, and web options functionality with automated allotment logic.</p>
-                            <div class="project-achievements">
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> Improved transparency in seat allocation
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> Reduced allocation time significantly
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> Automated complex allotment logic
-                                </div>
-                            </div>
-                            <div class="project-tech">
-                                <span>ASP.NET</span>
-                                <span>ASP.NET MVC</span>
-                                <span>MS SQL Server</span>
-                                <span>jQuery</span>
-                            </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="learning-card">
+                            <i class="fab fa-github"></i>
+                            <h5>Open-Source</h5>
+                            <p>Exploring scalable architecture patterns</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Project 2: AP-PGECET -->
-                <div class="col-lg-6 mb-4">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-placeholder">
-                                <i class="fas fa-user-graduate"></i>
-                            </div>
-                            <div class="project-overlay">
-                                <div class="project-overlay-content">
-                                    <h4>Postgraduate Admission Portal</h4>
-                                    <p>Modern Angular-based frontend application</p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="contact-intro" data-aos="fade-up">
+                        <p>
+                            I'm currently <strong>open to new opportunities</strong> and exciting projects. 
+                            Whether you have a project in mind, need technical consultation, or just want to connect, 
+                            I'd love to hear from you!
+                        </p>
+                    </div>
+
+                    <!-- Contact Cards -->
+                    <div class="row g-4 mt-4">
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <a href="mailto:undurthichanduindia@gmail.com" class="contact-card-link">
+                                <div class="contact-card-modern">
+                                    <div class="contact-icon-wrapper">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <h4>Email Address</h4>
+                                        <p>undurthichanduindia@gmail.com</p>
+                                    </div>
+                                    <div class="contact-arrow">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>AP-PGECET Web Portal</h3>
-                                <span class="project-type">Featured Project</span>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <a href="tel:+919618303538" class="contact-card-link">
+                                <div class="contact-card-modern">
+                                    <div class="contact-icon-wrapper">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <h4>Phone Number</h4>
+                                        <p>+(91) 9618303538</p>
+                                    </div>
+                                    <div class="contact-arrow">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <a href="https://www.linkedin.com/in/chandu-undurthi" target="_blank" class="contact-card-link">
+                                <div class="contact-card-modern">
+                                    <div class="contact-icon-wrapper">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <h4>LinkedIn Profile</h4>
+                                        <p>Connect professionally</p>
+                                    </div>
+                                    <div class="contact-arrow">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                            <a href="https://github.com/Chandu97Git" target="_blank" class="contact-card-link">
+                                <div class="contact-card-modern">
+                                    <div class="contact-icon-wrapper">
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <h4>GitHub Profile</h4>
+                                        <p>View my repositories</p>
+                                    </div>
+                                    <div class="contact-arrow">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="location-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="location-content">
+                            <div class="location-icon">
+                                <i class="fas fa-map-marker-alt"></i>
                             </div>
-                            <p>Designed and deployed responsive front-end interfaces for postgraduate engineering admissions. Developed reusable Angular components with integrated RESTful APIs for seamless backend communication.</p>
-                            <div class="project-achievements">
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> Responsive Angular components
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> RESTful API integration
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> Modular & scalable architecture
-                                </div>
-                            </div>
-                            <div class="project-tech">
-                                <span>Angular</span>
-                                <span>TypeScript</span>
-                                <span>Web API</span>
-                                <span>Reactive Forms</span>
+                            <div class="location-text">
+                                <h4>Based in Vijayawada, Andhra Pradesh</h4>
+                                <p>Available for remote work and willing to relocate</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Project 3: HRMS -->
-                <div class="col-lg-6 mb-4">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-placeholder">
-                                <i class="fas fa-users-cog"></i>
-                            </div>
-                            <div class="project-overlay">
-                                <div class="project-overlay-content">
-                                    <h4>Enterprise HRMS Solution</h4>
-                                    <p>Complete HR management platform</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>HRMS - Human Resource Management</h3>
-                                <span class="project-type">Enterprise Project</span>
-                            </div>
-                            <p>Contributed to an internal HRMS platform handling attendance, timesheets, and HIS data. Implemented role-based access control and optimized SQL queries with Entity Framework Core for improved performance.</p>
-                            <div class="project-achievements">
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> Role-based access control
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> Optimized database queries
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> Enhanced data accuracy
-                                </div>
-                            </div>
-                            <div class="project-tech">
-                                <span>ASP.NET Core</span>
-                                <span>EF Core</span>
-                                <span>MS SQL Server</span>
-                                <span>Angular</span>
-                            </div>
-                        </div>
+                    <!-- CTA -->
+                    <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="600">
+                        <a href="mailto:undurthichanduindia@gmail.com" class="btn btn-contact-cta">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Send Me a Message</span>
+                        </a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Project 4: Additional Interest -->
-                <div class="col-lg-6 mb-4">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-placeholder">
-                                <i class="fas fa-cloud"></i>
-                            </div>
-                            <div class="project-overlay">
-                                <div class="project-overlay-content">
-                                    <h4>Cloud & Innovation</h4>
-                                    <p>Exploring AWS & modern architectures</p>
-                                </div>
-                            </div>
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>&lt;Chandu Undurthi/&gt;</h3>
+                    <p>Full Stack Developer | Building Digital Solutions</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/chandu-undurthi" target="_blank" class="social-link-footer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Chandu97Git" target="_blank" class="social-link-footer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:undurthichanduindia@gmail.com" class="social-link-footer">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chandu Undurthi. Designed & Developed with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>sm-6">
+                        <div class="learning-card">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <h5>Technical Mentorship</h5>
+                            <p>Guiding junior developers and promoting best practices</p>
                         </div>
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>Cloud-Native Development</h3>
-                                <span class="project-type">Learning & Innovation</span>
-                            </div>
-                            <p>Actively learning and experimenting with AWS services (EC2, S3, RDS, Lambda) to build cloud-ready applications. Exploring Angular performance optimizations, state management, and accessibility improvements.</p>
-                            <div class="project-achievements">
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> AWS services exploration
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> Performance optimization
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check"></i> Open-source contribution
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="learning-card">
+                            <i class="fas fa-cloud"></i>
+                            <h5>Cloud Development</h5>
+                            <p>Learning AWS services (EC2, S3, RDS, Lambda)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-
